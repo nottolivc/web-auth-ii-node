@@ -1,8 +1,0 @@
-* WebAuth II Recitation 
-  Build upon WebAuth I by handling authorization using cookies
-
-** MVP
-   Add cookies to handle user sessions
-
-** Build a React Application to test these endpoints
-   Make cors work with cookies
