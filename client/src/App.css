@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 .login-form {
@@ -8,4 +11,25 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background:whitesmoke;
+}
+
+header {
+  background: #333;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  display: flex;
+  flex-flow: row wrap;
+  color: aqua;
+  text-decoration:none;
+  padding: 12px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
